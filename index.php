@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><title>Landing Page</title>
+<head><title>Landing Page fina</title>
 <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
@@ -171,7 +171,7 @@
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Azza</h4>
+                                            <h4 class="text-white mb-0">Aza</h4>
 
                                             <p class="badge ms-4"><em>Manager</em></p>
                                         </div>
