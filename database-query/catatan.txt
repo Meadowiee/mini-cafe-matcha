@@ -1,0 +1,16 @@
+CARA BUAT BIKIN DATABASE DARI QUERY DI SINI, 
+
+1.  Pastikan MySQL di XAMPP aktif
+    Buka XAMPP Control Panel
+    Klik Start di bagian MySQL
+
+2.  Buka Terminal dan masuk ke folder MySQL
+    Tekan tombol win + R
+    Ketik cmd lalu tekan enter
+    Ketikkan cd C:\xampp\mysql\bin lalu tekan enter
+
+3.  Import file .sql langsung
+    Misalnya file .sql-nya ada di:
+    C:\Users\Xampp\htdoc\mini-cafe-matcha\mini-cafe-matcha.sql
+    Ketik perintah ini: mysql -u root -p < "C:\Users\Xampp\htdoc\mini-cafe-matcha\mini-cafe-matcha.sql"
+    Tekan enter dengs
