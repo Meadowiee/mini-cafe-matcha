@@ -24,7 +24,12 @@ if ($action == 'login' && $_SERVER['REQUEST_METHOD'] == 'POST') {
     if (mysqli_num_rows($result) == 1) {
         $_SESSION['login'] = true;
         $_SESSION['username'] = $username;
-        header("Location: ../member.php");
+
+        if ($username == 'admin' && $password == 'admin') {
+            header("Location: ../admin.php");
+        } else {
+            header("Location: ../member.php");
+        }
     } else {
         header("Location: ../login.php?error=invalid");
     }

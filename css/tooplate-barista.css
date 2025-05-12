@@ -14,8 +14,8 @@ https://www.tooplate.com/view/2137-barista-cafe
   --primary-color:                #7E8C69;
   --secondary-color:              #9CAD8C;
   --section-bg-color:             #9CAD8C;
-  --custom-btn-bg-color:          #BC6C25;
-  --custom-btn-bg-hover-color:    #DDA15E;
+  --custom-btn-bg-color:          #7E8C69;
+  --custom-btn-bg-hover-color:    #6d7b5a;
   --dark-color:                   #7E8C69;
   --p-color:                      #717275;
   --border-color:                 #c1db2a;
@@ -898,7 +898,7 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  color: var(--p-color);
+  color: var(--primary-color);
   border-radius: var(--border-radius-small);
   margin-bottom: 30px;
   padding-top: 13px;
@@ -912,6 +912,7 @@ strong {
 .custom-form .form-control:focus {
   background: var(--primary-color);
   border-color: transparent;
+  color: white;
 }
 
 .custom-form .form-label {

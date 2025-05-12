@@ -1,0 +1,15 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 6rem 1.5rem 4rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.card-padding {
+    padding: 45px;
+    border-radius: 20px;
+    border: 1px solid #eaeaea;
+}
