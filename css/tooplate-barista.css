@@ -19,7 +19,7 @@ https://www.tooplate.com/view/2137-barista-cafe
   --dark-color:                   #7E8C69;
   --p-color:                      #717275;
   --border-color:                 #c1db2a;
-  --link-hover-color:             #E76F51;
+  --link-hover-color:             #F391A0;
 
   --body-font-family:             'Plus Jakarta Sans', sans-serif;
 
@@ -387,7 +387,7 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--link-hover-color);
 }
 
 .navbar .dropdown-menu {
