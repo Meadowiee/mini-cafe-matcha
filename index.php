@@ -34,7 +34,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="images/LogoFix.png" class="navbar-brand-image" alt=" ">
+                    <img src="images/LogoFix.png" alt="Logo" class="navbar-brand-image" style="height: 80px; width: auto; object-fit: contain;">
                     Matcha.cha
                 </a>
 
