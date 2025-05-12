@@ -12,13 +12,13 @@ https://www.tooplate.com/view/2137-barista-cafe
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #7E8C69;
-  --secondary-color:              #9CAD8C;
+  --secondary-color:              #7E8C69;
   --section-bg-color:             #9CAD8C;
-  --custom-btn-bg-color:          #7E8C69;
-  --custom-btn-bg-hover-color:    #6d7b5a;
+  --custom-btn-bg-color:          #B5C99A;
+  --custom-btn-bg-hover-color:    #8FB996;
   --dark-color:                   #7E8C69;
   --p-color:                      #717275;
-  --border-color:                 #c1db2a;
+  --border-color:                 #F1C8CB;
   --link-hover-color:             #F391A0;
 
   --body-font-family:             'Plus Jakarta Sans', sans-serif;
@@ -623,7 +623,7 @@ strong {
 }
 
 .about-video-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgb(60, 123, 41));
   border-radius: var(--border-radius-medium);
   bottom: 0;
   height: auto;
@@ -664,7 +664,7 @@ strong {
 }
 
 .team-block-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgb(58, 122, 47));
   position: absolute;
   z-index: 2;
   top: 0;
@@ -685,7 +685,7 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/BgMenu.jpeg');
+  background-image: url('../images/BgMenu3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -746,7 +746,7 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-color: #F391A0;
+  background-image: linear-gradient(to bottom, #CCD5C3, #F391A0);
 }
 
 .reviews-block {
@@ -757,11 +757,11 @@ strong {
 }
 
 .reviews-block .border-top {
-  border-top-color: rgba(255, 255, 255, 0.35) !important;
+  border-top-color: rgba(210, 9, 9, 0.35) !important;
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/reviews/testimoni.jpeg');
+  background-image: url('../images/reviews/MatchaU2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -783,7 +783,7 @@ strong {
 .reviews-block-info p {
   font-size: var(--btn-font-size);
   font-style: italic;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(198, 44, 44, 0.75);
 }
 
 .reviews-group i {
@@ -844,7 +844,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: linear-gradient(to bottom, #CCD5C3, #F391A0), url('../images/MatchaU3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
