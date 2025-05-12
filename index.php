@@ -112,9 +112,8 @@
                     <div class="col-lg-6 col-12">
                         <div class="ratio ratio-1x1">
                             <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                                <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+                                <source src="videos/Video.mp4" type="video/mp4">
 
-                                Your browser does not support the video tag.
                             </video>
 
                             <div class="about-video-info d-flex flex-column">
@@ -135,7 +134,7 @@
                         <p class="text-white">Kafe ini dikelola oleh remaja yang ramah dan hangat<a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
 
 
-                        <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Baristas</a>
+                        <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Tim Barista</a>
                     </div>
 
                 </div>
@@ -166,7 +165,7 @@
                             </div>
 
                             <div class="team-block-image-wrap">
-                                <img src="images/fina.jpeg" class="team-block-image img-fluid" alt="">
+                                <img src="images/team/fina.jpeg" class="team-block-image img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -184,7 +183,7 @@
                             </div>
 
                             <div class="team-block-image-wrap">
-                                <img src="images/azza.jpeg" class="team-block-image img-fluid" alt="">
+                                <img src="images/team/azza.jpeg" class="team-block-image img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -202,7 +201,7 @@
                             </div>
 
                             <div class="team-block-image-wrap">
-                                <img src="images/jus.jpeg" class="team-block-image img-fluid" alt="">
+                                <img src="images/team/jus.jpeg" class="team-block-image img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -216,83 +215,83 @@
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0">
                         <div class="menu-block-wrap">
                             <div class="text-center mb-4 pb-lg-2">
-                                <em class="text-white">Delicious Menu</em>
-                                <h4 class="text-white">Breakfast</h4>
+                                <em class="text-white">Menu Favorit</em>
+                                <h4 class="text-white">Hot / Iced Matcha</h4>
                             </div>
 
                             <div class="menu-block">
                                 <div class="d-flex">
-                                    <h6>Pancakes</h6>
+                                    <h6>Hot Matcha Latte</h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$12.50</strong>
+                                    <strong class="ms-auto">Rp28.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Fresh brewed coffee and steamed milk</small>
+                                    <small>Matcha bubuk premium dengan susu hangat dan foam lembut</small>
                                 </div>
                             </div>
 
                             <div class="menu-block my-4">
                                 <div class="d-flex">
                                     <h6>
-                                        Toasted Waffle
+                                        Iced Matcha Latte
                                     </h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="text-white ms-auto"><del>$16.50</del></strong>
+                                    <strong class="text-white ms-auto"><del>Rp40.000</del></strong>
 
-                                    <strong class="ms-2">$12.00</strong>
+                                    <strong class="ms-2">Rp30.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Brewed coffee and steamed milk</small>
+                                    <small>Disajikan dingin dengan es batu dan susu creamy</small>
                                 </div>
                             </div>
 
                             <div class="menu-block">
                                 <div class="d-flex">
-                                    <h6>Fried Chips
+                                    <h6>Iced Matcha Espresso Fusion
                                         <span class="badge ms-3">Recommend</span>
                                     </h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$15.0</strong>
+                                    <strong class="ms-auto">Rp32.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Rich Milk and Foam</small>
+                                    <small>Kombinasi espresso dengan matcha dan susu segar</small>
                                 </div>
                             </div>
 
                             <div class="menu-block my-4">
                                 <div class="d-flex">
-                                    <h6>Pancakes</h6>
+                                    <h6>Matcha Lemonade</h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$12.50</strong>
+                                    <strong class="ms-auto">Rp27.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Fresh brewed coffee and steamed milk</small>
+                                    <small>Campuran segar matcha dan jus lemon, cocok untuk cuaca panas</small>
                                 </div>
                             </div>
 
                             <div class="menu-block">
                                 <div class="d-flex">
-                                    <h6>Banana Cakes</h6>
+                                    <h6>Matcha Milkshake</h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$18.0</strong>
+                                    <strong class="ms-auto">Rp31.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Rich Milk and Foam</small>
+                                    <small>Smoothie dingin dengan matcha, susu kental, dan es krim vanila</small>
                                 </div>
                             </div>
                         </div>
@@ -301,82 +300,84 @@
                     <div class="col-lg-6 col-12">
                         <div class="menu-block-wrap">
                             <div class="text-center mb-4 pb-lg-2">
-                                <em class="text-white">Favourite Menu</em>
-                                <h4 class="text-white">Coffee</h4>
+                                <em class="text-white">Menu Penutup</em></em>
+                                <h4 class="text-white">Matcha Cake</h4>
                             </div>
 
                             <div class="menu-block">
                                 <div class="d-flex">
-                                    <h6>Latte</h6>
+                                    <h6>Matcha Cheesecake</h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="text-white ms-auto"><del>$12.50</del></strong>
+                                    <strong class="text-white ms-auto"><del>Rp35.000</del></strong>
 
-                                    <strong class="ms-2">$7.50</strong>
+                                    <strong class="ms-2">Rp30.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Fresh brewed coffee and steamed milk</small>
+                                    <small>Kue keju lembut dengan sentuhan matcha Jepang</small>
                                 </div>
                             </div>
 
                             <div class="menu-block my-4">
                                 <div class="d-flex">
                                     <h6>
-                                        White Coffee
+                                       Matcha Roll Cake
                                         <span class="badge ms-3">Recommend</span>
                                     </h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$5.90</strong>
+                                    <strong class="ms-auto">Rp28.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Brewed coffee and steamed milk</small>
+                                    <small>Kue gulung isi krim matcha yang manis dan lembut</small>
                                 </div>
                             </div>
 
                             <div class="menu-block">
                                 <div class="d-flex">
-                                    <h6>Chocolate Milk</h6>
+                                    <h6>Matcha Lava Cake
+                                        <span class="badge ms-3">Baru</span>
+                                    </h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$5.50</strong>
+                                    <strong class="ms-auto">Rp38.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Rich Milk and Foam</small>
+                                    <small>Lelehan matcha hangat dari dalam kue cokelat lembut</small>
                                 </div>
                             </div>
 
                             <div class="menu-block my-4">
                                 <div class="d-flex">
-                                    <h6>Greentea</h6>
+                                    <h6>Matcha Cake</h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$7.50</strong>
+                                    <strong class="ms-auto">Rp25.000</strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Fresh brewed coffee and steamed milk</small>
+                                    <small>Kue lembut dengan rasa matcha asli, cocok untuk teman minum teh</small>
                                 </div>
                             </div>
 
                             <div class="menu-block">
                                 <div class="d-flex">
-                                    <h6>Dark Chocolate</h6>
+                                    <h6>Ice Cream Matcha</h6>
 
                                     <span class="underline"></span>
 
-                                    <strong class="ms-auto">$7.25</strong>
+                                    <strong class="ms-auto">Rp20.000</strong></strong>
                                 </div>
 
                                 <div class="border-top mt-2 pt-2">
-                                    <small>Rich Milk and Foam</small>
+                                    <small>Es krim homemade dengan rasa matcha, cocok disantap kapan saja</small>
                                 </div>
                             </div>
                         </div>
@@ -392,9 +393,9 @@
                 <div class="row justify-content-center">
 
                     <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                        <em class="text-white">Reviews by Customers</em>
+                        <em class="text-white">Ulasan dari Pelanggan</em>
 
-                        <h2 class="text-white">Testimonials</h2>
+                        <h2 class="text-white">Testimoni</h2>
                     </div>
 
                     <div class="timeline">
@@ -402,16 +403,16 @@
                             <div class="timeline-content">
                                 <div class="reviews-block">
                                     <div class="reviews-block-image-wrap d-flex align-items-center">
-                                        <img src="images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <img src="images/reviews/ulasan1.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                         <div class="">
-                                            <h6 class="text-white mb-0">Sandra</h6>
-                                            <em class="text-white"> Customers</em>
+                                            <h6 class="text-white mb-0">Mikey</h6>
+                                            <em class="text-white"> Pelanggan</em>
                                         </div>
                                     </div>
 
                                     <div class="reviews-block-info">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p>Saya sangat menyukai suasana di Kafe Matcha ini. Tempatnya tenang, hangat, dan setiap minuman yang disajikan terasa nikmat. Matcha Latte-nya benar-benar istimewa.</p>
 
                                         <div class="d-flex border-top pt-3 mt-4">
                                             <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
@@ -433,16 +434,16 @@
                             <div class="timeline-content">
                                 <div class="reviews-block">
                                     <div class="reviews-block-image-wrap d-flex align-items-center">
-                                        <img src="images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <img src="images/reviews/ulasan2.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                         <div class="">
-                                            <h6 class="text-white mb-0">Don</h6>
-                                            <em class="text-white"> Customers</em>
+                                            <h6 class="text-white mb-0">Mona</h6>
+                                            <em class="text-white"> Pelanggan</em>
                                         </div>
                                     </div>
 
                                     <div class="reviews-block-info">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p>Pelayanan di sini sangat ramah dan tempatnya nyaman untuk bekerja atau bersantai. Matcha Cake-nya lembut dengan rasa manis yang pas di lidah.</p>
 
                                         <div class="d-flex border-top pt-3 mt-4">
                                             <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
@@ -464,19 +465,19 @@
                             <div class="timeline-content">
                                 <div class="reviews-block">
                                     <div class="reviews-block-image-wrap d-flex align-items-center">
-                                        <img src="images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="reviews-block-image img-fluid" alt="">
+                                        <img src="images/reviews/ulasan3.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                         <div class="">
-                                            <h6 class="text-white mb-0">Olivia</h6>
-                                            <em class="text-white"> Customers</em>
+                                            <h6 class="text-white mb-0">Gebriell</h6>
+                                            <em class="text-white"> Pelanggan</em>
                                         </div>
                                     </div>
 
                                     <div class="reviews-block-info">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p>Kafe ini menjadi tempat favorit saya setiap akhir pekan. Menu yang disajikan unik, staf sangat ramah, dan suasananya membuat saya merasa betah.</p>
 
                                         <div class="d-flex border-top pt-3 mt-4">
-                                            <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+                                            <strong class="text-white">5.5 <small class="ms-2">Rating</small></strong>
 
                                             <div class="reviews-group ms-auto">
                                                 <i class="bi-star-fill"></i>

@@ -11,14 +11,14 @@ https://www.tooplate.com/view/2137-barista-cafe
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #BC6C25;
-  --secondary-color:              #DDA15E;
-  --section-bg-color:             #b78752;
+  --primary-color:                #7E8C69;
+  --secondary-color:              #9CAD8C;
+  --section-bg-color:             #9CAD8C;
   --custom-btn-bg-color:          #BC6C25;
   --custom-btn-bg-hover-color:    #DDA15E;
-  --dark-color:                   #000000;
+  --dark-color:                   #7E8C69;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
+  --border-color:                 #c1db2a;
   --link-hover-color:             #E76F51;
 
   --body-font-family:             'Plus Jakarta Sans', sans-serif;
@@ -198,7 +198,7 @@ strong {
   height: 25px;
   right: -12px;
   background-color: var(--white-color);
-  border: 5px solid #7c5c52;
+  border: 5px solid #a33919;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -685,7 +685,7 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/matcha.jpeg');
+  background-image: url('../images/BgMenu.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -746,7 +746,7 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-color: #7c5c52;
+  background-color: #F391A0;
 }
 
 .reviews-block {
@@ -761,7 +761,7 @@ strong {
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/matcha.jpeg');
+  background-image: url('../images/reviews/testimoni.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
