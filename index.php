@@ -503,8 +503,8 @@
                 <div class="row">
 
                     <div class="col-lg-12 col-12">
-                        <em class="text-white">Say Hello</em>
-                        <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
+                        <em class="text-white">Katakan Hai</em>
+                        <h2 class="text-white mb-4 pb-lg-2">Hubungi</h2>
                     </div>
 
                     <div class="col-lg-6 col-12">
@@ -513,19 +513,19 @@
                             <div class="row">
 
                                 <div class="col-lg-6 col-12">
-                                    <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
+                                    <label for="name" class="form-label">Nama <sup class="text-danger">*</sup></label>
 
                                     <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required="">
                                 </div>
 
                                 <div class="col-lg-6 col-12">
-                                    <label for="email" class="form-label">Email Address</label>
+                                    <label for="email" class="form-label">Alamat Email</label>
 
                                     <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required="">
                                 </div>
 
                                 <div class="col-12">
-                                    <label for="message" class="form-label">How can we help?</label>
+                                    <label for="message" class="form-label">Apa yang dapat kami bantu?</label>
 
                                     <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message" required=""></textarea>
 
@@ -533,7 +533,7 @@
                             </div>
 
                             <div class="col-lg-5 col-12 mx-auto mt-3">
-                                <button type="submit" class="form-control">Send Message</button>
+                                <button type="submit" class="form-control">Kirim pesan</button>
                             </div>
                         </form>
                     </div>
@@ -552,11 +552,11 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-12 me-auto">
-                        <em class="text-white d-block mb-4">Where to find us?</em>
+                        <em class="text-white d-block mb-4">Dimana kami berada?</em>
 
                         <strong class="text-white">
                             <i class="bi-geo-alt me-2"></i>
-                            Bandra West, Mumbai, Maharashtra 400050, India
+                            Banjarbaru, Kalimantan Selatan
                         </strong>
 
                         <ul class="social-icon mt-4">
@@ -578,13 +578,13 @@
                     </div>
 
                     <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-                        <em class="text-white d-block mb-4">Contact</em>
+                        <em class="text-white d-block mb-4">Hubungi</em>
 
                         <p class="d-flex mb-1">
-                            <strong class="me-2">Phone:</strong>
+                            <strong class="me-2">No.Telp:</strong>
                             <a href="tel: 305-240-9671" class="site-footer-link">
-                                (65)
-                                305 2409 671
+                                (+62)
+                                123-456-78900
                             </a>
                         </p>
 
@@ -592,32 +592,32 @@
                             <strong class="me-2">Email:</strong>
 
                             <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                                hello@barista.co
+                                Matcha_cha.gmail.com
                             </a>
                         </p>
                     </div>
 
 
                     <div class="col-lg-5 col-12">
-                        <em class="text-white d-block mb-4">Opening Hours.</em>
+                        <em class="text-white d-block mb-4">Jam Operasional</em>
 
                         <ul class="opening-hours-list">
                             <li class="d-flex">
-                                Monday - Friday
+                                Senin - Jumat
                                 <span class="underline"></span>
 
                                 <strong>9:00 - 18:00</strong>
                             </li>
 
                             <li class="d-flex">
-                                Saturday
+                                Sabtu
                                 <span class="underline"></span>
 
                                 <strong>11:00 - 16:30</strong>
                             </li>
 
                             <li class="d-flex">
-                                Sunday
+                                Minggu
                                 <span class="underline"></span>
 
                                 <strong>Closed</strong>
