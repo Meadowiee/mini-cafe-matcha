@@ -138,7 +138,7 @@
                         <div class="team-block-wrap">
                             <div class="team-block-info d-flex flex-column">
                                 <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Azza</h4>
+                                    <h4 class="text-white mb-0">Aza</h4>
 
                                     <p class="badge ms-4"><em>Manager</em></p>
                                 </div>
@@ -370,8 +370,8 @@
                                         <img src="images/reviews/ulasan1.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                         <div class="">
-                                            <h6 class="text-white mb-0">Mikey</h6>
-                                            <em class="text-white"> Pelanggan</em>
+                                            <h6 class="text-green mb-0">Mikey</h6>
+                                            <em class="text-green"> Pelanggan</em>
                                         </div>
                                     </div>
 
@@ -401,8 +401,8 @@
                                         <img src="images/reviews/ulasan2.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                         <div class="">
-                                            <h6 class="text-white mb-0">Mona</h6>
-                                            <em class="text-white"> Pelanggan</em>
+                                            <h6 class="text-green mb-0">Mona</h6>
+                                            <em class="text-green"> Pelanggan</em>
                                         </div>
                                     </div>
 
@@ -432,8 +432,8 @@
                                         <img src="images/reviews/ulasan3.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                         <div class="">
-                                            <h6 class="text-white mb-0">Gebriell</h6>
-                                            <em class="text-white"> Pelanggan</em>
+                                            <h6 class="text-green mb-0">Gebriell</h6>
+                                            <em class="text-green"> Pelanggan</em>
                                         </div>
                                     </div>
 

@@ -13,11 +13,11 @@ https://www.tooplate.com/view/2137-barista-cafe
   --white-color:                  #ffffff;
   --primary-color:                #7E8C69;
   --secondary-color:              #7E8C69;
-  --section-bg-color:             #9CAD8C;
+  --section-bg-color:             #a1b88d;
   --custom-btn-bg-color:          #B5C99A;
   --custom-btn-bg-hover-color:    #8FB996;
   --dark-color:                   #7E8C69;
-  --p-color:                      #717275;
+  --p-color:                      #b5a0ac;
   --border-color:                 #F1C8CB;
   --link-hover-color:             #F391A0;
 
@@ -138,7 +138,7 @@ strong {
 }
 
 .section-bg {
-  background: linear-gradient(to bottom, #F391A0, #F1C8CB, #F6B0BB);
+  background: linear-gradient(to bottom, #ffabb8, #F1C8CB, #B7C4AB);
 }
 
 .section-overlay {
@@ -150,7 +150,7 @@ strong {
   pointer-events: none;
   width: 100%;
   height: 100%;
-  opacity: 0.65;
+  opacity: 0.01;
 }
 
 .section-overlay + .container {
@@ -198,7 +198,7 @@ strong {
   height: 25px;
   right: -12px;
   background-color: var(--white-color);
-  border: 5px solid #a33919;
+  border: 5px solid #5B744B;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -601,7 +601,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background: linear-gradient(to bottom, #B7C4AB, #CCD5C3, #F391A0);
+  background: linear-gradient(to bottom, #ffd2d9, #ffc1cb, #ffabb8);
   position: relative;
 }
 
@@ -623,7 +623,7 @@ strong {
 }
 
 .about-video-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgb(60, 123, 41));
+  background-image: linear-gradient(to bottom, rgba(74, 74, 74, 0.35), rgb(101, 168, 80));
   border-radius: var(--border-radius-medium);
   bottom: 0;
   height: auto;
@@ -664,7 +664,7 @@ strong {
 }
 
 .team-block-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgb(208, 111, 122));
+  background-image: linear-gradient(to bottom, rgba(252, 209, 255, 0.35), rgb(208, 111, 122));
   position: absolute;
   z-index: 2;
   top: 0;
@@ -685,7 +685,7 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background: linear-gradient(to bottom, #B7C4AB, #9CAD8C, #FDEDEF);
+  background: linear-gradient(to bottom, #B7C4AB, #9CAD8C, #F391A0);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -746,7 +746,7 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background: linear-gradient(to bottom, #F391A0, #F6B0BB, #F1C8CB);
+  background: linear-gradient(to bottom, #F391A0, #F6B0BB, #CCD5C3);
 }
 
 .reviews-block {
@@ -757,7 +757,11 @@ strong {
 }
 
 .reviews-block .border-top {
-  border-top-color: rgba(210, 9, 9, 0.35) !important;
+  border-top-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.text-green {
+  color: #466a3f; /* hijau tua */
 }
 
 .reviews-block-image-wrap {
@@ -783,7 +787,7 @@ strong {
 .reviews-block-info p {
   font-size: var(--btn-font-size);
   font-style: italic;
-  color: rgba(198, 44, 44, 0.75);
+  color: rgb(255, 255, 255);
 }
 
 .reviews-group i {
@@ -844,7 +848,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background: linear-gradient(to bottom, #CCD5C3, #F391A0, #FDEDEF);
+  background: linear-gradient(to bottom, #CCD5C3, #F391A0, #CCD5C3);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -964,7 +968,7 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background: linear-gradient(to bottom, #CCD5C3, #F391A0, #FDEDEF);
+  background: linear-gradient(to bottom, #CCD5C3, #F391A0, #F391A0);
   padding-top: 100px;
   padding-bottom: 100px;
 }
