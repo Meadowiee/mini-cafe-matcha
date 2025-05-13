@@ -44,7 +44,7 @@ $ice = getIceLevels();
 <body style="background-color: #9CAD8C;">
     <main>
         <?php include 'components/admin-navbar.php'; ?>
-        <div class="starter-template text-light">
+        <div class="starter-template text-light mt-3">
             <h1>Variants</h1>
             <p class="lead text-light">Manage matcha menu's custom personalization</p>
         </div>

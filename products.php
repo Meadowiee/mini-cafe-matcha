@@ -34,43 +34,45 @@ $products = getProducts();
     <main>
         <?php include 'components/admin-navbar.php'; ?>
 
-        <div class="starter-template text-light pb-4">
-            <h1>Menus</h1>
+        <div class="starter-template text-light pb-4 mt-3">
+            <h1>Menu</h1>
             <p class="lead text-light">Manage matcha.cha's drinks and desserts</p>
         </div>
 
         <div class="container mt-0">
             <div class="d-flex flex justify-content-end">
-                <button class="btn btn-light btn-sm rounded-5 mb-2 openModalButton" data-action="add_product" data-item="<?= htmlspecialchars(json_encode($product)) ?>">+ Add New Menu</button>
+                <button class="btn btn-light btn-sm rounded-5 mb-2 openModalButton" data-action="add_product">+ Add New Menu</button>
             </div>
-            <table class="table rounded-4">
-                <thead>
-                    <th scope="col" class="text-center">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Category</th>
-                    <th scope="col">Size</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Action</th>
+            <table class="table rounded-4 custom-table">
+                <thead class="text-light">
+                    <th scope="col" class="text-center text-light">#</th>
+                    <th scope="col" class="text-light">Name</th>
+                    <th scope="col" class="text-light">Description</th>
+                    <th scope="col" class="text-light">Category</th>
+                    <th scope="col" class="text-light">Size</th>
+                    <th scope="col" class="text-light">Price</th>
+                    <th scope="col" class="text-light">Action</th>
                 </thead>
                 <tbody>
                     <?php
                     $index = 0;
                     foreach ($products as $product) { ?>
                         <tr>
-                            <th scope="row" class="text-center"><?= ++$index ?></th>
-                            <td><?= $product['name'] ?></td>
-                            <td><?= empty($product['description']) ? '-' : $product['description']?></td>
-                            <td><?= $product['category'] ?></td>
-                            <td><?= empty($product['size']) ? '-' : $product['size'] ?></td>
-                            <td><?= $product['base_price'] ?></td>
-                            <td class="d-flex flex gap-1">
-                                <button class="btn btn-md btn-outline-info rounded-2 openModalButton" data-action="update_product" data-item="<?= htmlspecialchars(json_encode($product)) ?>"><i class="bi bi-pen"></i></button>
-                                <form method="post">
-                                    <input type="hidden" name="action" value="delete_product">
-                                    <input type="hidden" name="id" value="<?= $product['id'] ?>">
-                                    <button class="btn btn-md btn-outline-danger rounded-2" ><i class="bi bi-trash"></i></button>
-                                </form>
+                            <th scope="row" class="text-center text-light"><?= ++$index ?></th>
+                            <td class="text-light"><?= $product['name'] ?></td>
+                            <td class="text-light"><?= empty($product['description']) ? '-' : $product['description'] ?></td>
+                            <td class="text-light"><?= $product['category'] ?></td>
+                            <td class="text-light"><?= empty($product['size']) ? '-' : $product['size'] ?></td>
+                            <td class="text-light"><?= $product['base_price'] ?></td>
+                            <td>
+                                <div class="d-flex flex gap-1">
+                                    <button class="btn btn-md text-light openModalButton" data-action="update_product" data-item="<?= htmlspecialchars(json_encode($product)) ?>"><i class="bi bi-pen"></i></button>
+                                    <form method="post">
+                                        <input type="hidden" name="action" value="delete_product">
+                                        <input type="hidden" name="id" value="<?= $product['id'] ?>">
+                                        <button class="btn btn-md text-light"><i class="bi bi-trash"></i></button>
+                                    </form>
+                                </div>
                             </td>
                         </tr>
                     <?php } ?>
@@ -86,7 +88,7 @@ $products = getProducts();
 
     <!-- Create and edit modal product -->
     <div class="modal fade " id="itemModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-lg" style="z-index: 9999999;">
             <div class="col-lg-6 col-12 mb-4 mb-lg-0 modal-content">
                 <div class="card-padding">
                     <div class="pb-lg-2 mb-4">

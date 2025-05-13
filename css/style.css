@@ -15,17 +15,14 @@ body {
 }
 
 .custom-table {
-    background-color: rgba(0, 0, 0, 0.40);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.40) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 .custom-table th,
 .custom-table td {
-    background-color: transparent;
-}
-
-.custom-table tr {
-    color: white;
+    background-color: transparent !important;
+    color: white !important;
 }
