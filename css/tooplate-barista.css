@@ -138,7 +138,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background: linear-gradient(to bottom, #F391A0, #F1C8CB, #F6B0BB);
 }
 
 .section-overlay {
@@ -601,7 +601,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-color: var(--secondary-color);
+  background: linear-gradient(to bottom, #B7C4AB, #CCD5C3, #F391A0);
   position: relative;
 }
 
@@ -664,7 +664,7 @@ strong {
 }
 
 .team-block-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgb(58, 122, 47));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgb(208, 111, 122));
   position: absolute;
   z-index: 2;
   top: 0;
@@ -685,7 +685,7 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/BgMenu3.jpg');
+  background: linear-gradient(to bottom, #B7C4AB, #9CAD8C, #FDEDEF);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -746,7 +746,7 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-image: linear-gradient(to bottom, #CCD5C3, #F391A0);
+  background: linear-gradient(to bottom, #F391A0, #F6B0BB, #F1C8CB);
 }
 
 .reviews-block {
@@ -844,7 +844,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, #CCD5C3, #F391A0), url('../images/MatchaU3.jpg');
+  background: linear-gradient(to bottom, #CCD5C3, #F391A0, #FDEDEF);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -964,7 +964,7 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--primary-color);
+  background: linear-gradient(to bottom, #CCD5C3, #F391A0, #FDEDEF);
   padding-top: 100px;
   padding-bottom: 100px;
 }
