@@ -47,7 +47,7 @@
                         <h1>Mini Cafe Matcha</h1>
 
                         <p class="text-white mb-4 pb-lg-2">
-                            Nikamati Rutiniras dengan <em>rasa</em> yang kamu percaya.
+                            Nikamati Rutinitas dengan <em>rasa</em> yang kamu percaya.
                         </p>
 
                         <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
