@@ -1,5 +1,11 @@
 <?php
 include 'controllers/order.php';
+
+if (!isset($_SESSION['login']) || $_SESSION['login'] !== true) {
+    header("Location: login.php");
+    exit();
+}
+
 $orders = getOrders();
 ?>
 <!DOCTYPE html>
@@ -35,7 +41,7 @@ $orders = getOrders();
 
         <div class="container mt-0">
             <div class="d-flex flex justify-content-end">
-                <button class="btn btn-light btn-sm rounded-5 mb-2 openModalButton" data-action="add_product">+ Add New Order</button>
+                <a class="btn btn-light btn-sm rounded-5 mb-2" href="transaction.php">+ Add New Order</a>
             </div>
             <table class="table rounded-4 custom-table">
                 <thead>
@@ -99,8 +105,7 @@ $orders = getOrders();
                                     <div class="col-4">
                                         <h6 class="text-muted fs-5">Total Bills </h6>
                                     </div>
-                                    <strong class="ms-2 me-2"></strong>
-                                    <strong class="ms-2 me-2">IDR 1234.00</strong>
+                                    <strong class="ms-2 me-2" id="total-price"></strong>
                                 </div>
                             </div>
                         </div>
@@ -124,6 +129,7 @@ $orders = getOrders();
             document.getElementById('user-id').textContent = order.user_id;
             document.getElementById('order-method').textContent = order.order_method;
             document.getElementById('created-at').textContent = new Date(order.created_at).toLocaleString();
+            document.getElementById('total-price').textContent = `IDR ${order.total_price}`;
 
             const orderItemsMenu = document.getElementById('order-items-menu');
             orderItemsMenu.innerHTML = '';

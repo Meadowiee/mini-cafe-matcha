@@ -22,14 +22,13 @@ if ($action == 'login' && $_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $result = mysqli_query($connect, "SELECT * FROM users WHERE username='$username' AND password='$password'");
     if (mysqli_num_rows($result) == 1) {
+        $user = mysqli_fetch_assoc($result);
+
         $_SESSION['login'] = true;
         $_SESSION['username'] = $username;
+        $_SESSION['user_id'] = $user['id'];
 
-        if ($username == 'admin' && $password == 'admin') {
-            header("Location: ../admin.php");
-        } else {
-            header("Location: ../member.php");
-        }
+        header("Location: ../index.php");
     } else {
         header("Location: ../login.php?error=invalid");
     }
@@ -37,5 +36,5 @@ if ($action == 'login' && $_SERVER['REQUEST_METHOD'] == 'POST') {
 
 if ($action == 'logout') {
     session_destroy();
-    header("Location: ../login.php?message=loggedout");
+header("Location: ../login.php?message=loggedout");
 }

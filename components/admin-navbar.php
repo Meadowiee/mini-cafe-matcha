@@ -24,10 +24,13 @@
                 <li class="nav-item">
                     <a class="nav-link <?= ($current == 'order-list.php') ? 'active' : '' ?>" href="order-list.php">Order List</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link <?= ($current == 'logout.php') ? 'active' : '' ?>" href="logout.php">Logout</a>
+                </li> -->
             </ul>
 
             <div class="ms-lg-3">
-                <a class="btn custom-btn custom-border-btn" href="reservation.html">
+                <a class="btn custom-btn custom-border-btn" href="transaction.php">
                     New Order
                     <i class="bi-arrow-up-right ms-2"></i>
                 </a>

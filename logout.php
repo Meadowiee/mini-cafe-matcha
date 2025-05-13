@@ -1,5 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header("Location: landing-page.php");
+header("Location: index.php");
 exit();

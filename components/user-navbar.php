@@ -30,10 +30,13 @@
                 <li class="nav-item">
                     <a class="nav-link click-scroll" href="#section_5">Hubungi</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="login.php">Masuk</a>
+                </li>
             </ul>
 
             <div class="ms-lg-3">
-                <a class="btn custom-btn custom-border-btn" href="member.php">
+                <a class="btn custom-btn custom-border-btn" href="transaction.php">
                     Reservation
                     <i class="bi-arrow-up-right ms-2"></i>
                 </a>

@@ -26,19 +26,15 @@
 </head>
 
 <body>
-    <!-- <h1>Welcome to Mini Cafe Matcha</h1>
-    <a href="signup.php">Sign Up</a> |
-    <a href="login.php">Login</a> -->
-
     <main>
-        <?php 
+        <?php
+            include 'controllers/config.php';
             if (isset($_SESSION['username']) && $_SESSION['username'] == 'admin') {
                 include 'components/admin-navbar.php';
             } else {
                 include 'components/user-navbar.php';
             }
         ?>
-
 
         <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
 

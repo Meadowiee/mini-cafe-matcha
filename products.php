@@ -1,7 +1,12 @@
 <?php
 include 'controllers/product.php';
-handleFormProduct();
 
+if (!isset($_SESSION['login']) || $_SESSION['login'] !== true) {
+    header("Location: login.php");
+    exit();
+}
+
+handleFormProduct();
 $drinks = getProductsByCategory('drink');
 $desserts = getProductsByCategory('dessert');
 $products = getProducts();
