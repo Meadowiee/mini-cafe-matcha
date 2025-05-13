@@ -30,12 +30,12 @@ function getOrderItems($orderId)
     global $connect;
     $stmt = $connect->prepare("SELECT oi.id, p.name AS product_id, sl.label AS sugar_level, il.label AS ice_level, ct.label AS caffeine, mt.label AS milk_type, tt.label AS topping, oi.quantity, oi.item_price 
     FROM order_items oi 
-    JOIN products p ON oi.product_id = p.id
-    JOIN sugar_levels sl ON oi.sugar_level = sl.id
-    JOIN ice_levels il ON oi.ice_level = il.id
-    JOIN caffeine_types ct ON oi.caffeine = ct.id
-    JOIN milk_types mt ON oi.milk_type = mt.id
-    JOIN topping_types tt ON oi.topping = tt.id
+    LEFT JOIN products p ON oi.product_id = p.id
+    LEFT JOIN sugar_levels sl ON oi.sugar_level = sl.id
+    LEFT JOIN ice_levels il ON oi.ice_level = il.id
+    LEFT JOIN caffeine_types ct ON oi.caffeine = ct.id
+    LEFT JOIN milk_types mt ON oi.milk_type = mt.id
+    LEFT JOIN topping_types tt ON oi.topping = tt.id
     WHERE order_id = ?");
     $stmt->bind_param("i", $orderId);
     $stmt->execute();

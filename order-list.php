@@ -65,7 +65,7 @@ $orders = getOrders();
                             <td><?= $order['id'] ?></td>
                             <td><?= $order['user_id'] ?></td>
                             <td><?= $order['order_method'] ?></td>
-                            <td>$<?= number_format($order['total_price'], 2) ?></td>
+                            <td>IDR <?= $order['total_price'] ?></td>
                             <td><?= date('Y-m-d H:i:s', strtotime($order['created_at'])) ?></td>
                             <td class='text-center'>
                                 <button type="button" class="btn btn-sm text-light" data-bs-toggle="modal" data-bs-target="#orderModal" data-order="<?= htmlspecialchars(json_encode($order)) ?>">
@@ -125,6 +125,8 @@ $orders = getOrders();
             const order = JSON.parse(button.getAttribute('data-order'));
             const items = order.items;
 
+            console.log('order', order);
+            console.log('items', items);
             document.getElementById('modal-title').textContent = `Order ID ${order.id}`;
             document.getElementById('user-id').textContent = order.user_id;
             document.getElementById('order-method').textContent = order.order_method;
@@ -141,8 +143,8 @@ $orders = getOrders();
                     <div class="d-flex flex justify-content-between">
                     <div class="col-6">
                         <h6 class="text-muted fs-5">${item.product_id}</h6>
-                        <p class="fs-6 text-wrap">${item.sugar_level} | ${item.ice_level} |
-                         ${item.caffeine} | ${item.milk_type} | ${item.topping}</p>
+                        <p class="fs-6 text-wrap">${item.sugar_level ?? ''} | ${item.ice_level ?? ''} |
+                         ${item.caffeine ?? ''} | ${item.milk_type ?? ''} | ${item.topping ?? ''}</p>
                     </div>
                     <strong class="ms-2 me-2">x ${item.quantity}</strong>
                     <strong class="ms-2 me-2">IDR ${item.item_price}</strong>
