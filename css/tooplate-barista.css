@@ -323,7 +323,7 @@ strong {
 -----------------------------------------*/
 .sticky-wrapper {
   position: absolute;
-  z-index: 999999;
+  z-index: 999998;
   top: 0;
   right: 0;
   left: 0;
@@ -337,7 +337,7 @@ strong {
 
 .navbar {
   background: transparent;
-  z-index: 999999;
+  z-index: 999998;
   padding-top: 30px;
   padding-bottom: 30px;
 }

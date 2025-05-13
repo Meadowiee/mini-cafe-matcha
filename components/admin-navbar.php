@@ -16,7 +16,7 @@
                     <a class="nav-link <?= ($current == 'index.php') ? 'active' : '' ?>" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?= ($current == 'products.php') ? 'active' : '' ?>" href="products.php">Menus</a>
+                    <a class="nav-link <?= ($current == 'products.php') ? 'active' : '' ?>" href="products.php">Menu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?= ($current == 'variants.php') ? 'active' : '' ?>" href="variants.php">Variants</a>
