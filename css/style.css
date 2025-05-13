@@ -13,3 +13,19 @@ body {
     border-radius: 20px;
     border: 1px solid #eaeaea;
 }
+
+.custom-table {
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th,
+.custom-table td {
+    background-color: transparent;
+}
+
+.custom-table tr {
+    color: white;
+}
